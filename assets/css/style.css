@@ -600,7 +600,7 @@ section {
 
 .card{
   border: none;
-}
+  }
 
 .card img{
   padding: 5px;
@@ -611,8 +611,7 @@ section {
 }
 
 .card:hover{
-  margin-top: -20px;
-  padding-bottom: 20px;
+  transform: scale(1.05);
 }
 
 
@@ -753,6 +752,9 @@ section {
 @media (max-width: 767px) {
   .testimonials {
     margin: 30px 10px;
+  }
+  .card{
+    margin-bottom: 10px;
   }
 }
 
